@@ -1,0 +1,25 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+target 'iOSProject' do
+
+        #布局约束
+        pod 'Masonry', '~> 1.1.0'
+        # 网络请求
+        pod 'AFNetworking', '~> 3.2.1'
+
+        # 下拉刷新
+        pod 'MJRefresh', '~> 3.1.15.3'
+        #字典转模型
+        pod 'MJExtension', '~> 3.0.13'
+        
+        # 键盘管理
+        pod 'IQKeyboardManager'
+        
+        # 图片加载
+        pod 'SDWebImage'
+        
+        #蒙版
+        pod 'SVProgressHUD', '~> 2.2.5'
+
+end
