@@ -20,10 +20,7 @@
 		B27F0C9322263153000328E7 /* DRGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F0C9122263153000328E7 /* DRGuidePageViewController.m */; };
 		B27F0C9422263153000328E7 /* DRGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F0C9122263153000328E7 /* DRGuidePageViewController.m */; };
 		B28B88FF2224E0CC00EC719F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B88FE2224E0CC00EC719F /* AppDelegate.m */; };
-		B28B89022224E0CC00EC719F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B89012224E0CC00EC719F /* ViewController.m */; };
-		B28B89052224E0CC00EC719F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B89032224E0CC00EC719F /* Main.storyboard */; };
 		B28B89072224E0CD00EC719F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B89062224E0CD00EC719F /* Assets.xcassets */; };
-		B28B890A2224E0CD00EC719F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B89082224E0CD00EC719F /* LaunchScreen.storyboard */; };
 		B28B890D2224E0CD00EC719F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B890C2224E0CD00EC719F /* main.m */; };
 		B28B89172224E0CD00EC719F /* iOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B89162224E0CD00EC719F /* iOSProjectTests.m */; };
 		B28B89222224E0CD00EC719F /* iOSProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B89212224E0CD00EC719F /* iOSProjectUITests.m */; };
@@ -51,6 +48,30 @@
 		B28B897A2225458E00EC719F /* DRFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B89792225458E00EC719F /* DRFunctionViewController.m */; };
 		B28B897B2225458E00EC719F /* DRFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B89792225458E00EC719F /* DRFunctionViewController.m */; };
 		B28B897C2225458E00EC719F /* DRFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B89792225458E00EC719F /* DRFunctionViewController.m */; };
+		B2B59DAD2241160F00ED74AF /* DRHomeCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DAA2241160F00ED74AF /* DRHomeCategoryCell.m */; };
+		B2B59DAE2241160F00ED74AF /* DRHomeCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DAA2241160F00ED74AF /* DRHomeCategoryCell.m */; };
+		B2B59DAF2241160F00ED74AF /* DRHomeCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DAA2241160F00ED74AF /* DRHomeCategoryCell.m */; };
+		B2B59DB02241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DAC2241160F00ED74AF /* DRHomeCategoryReusableView.m */; };
+		B2B59DB12241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DAC2241160F00ED74AF /* DRHomeCategoryReusableView.m */; };
+		B2B59DB22241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DAC2241160F00ED74AF /* DRHomeCategoryReusableView.m */; };
+		B2B59DB82241165400ED74AF /* DRCellConfingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DB52241165400ED74AF /* DRCellConfingModel.m */; };
+		B2B59DB92241165400ED74AF /* DRCellConfingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DB52241165400ED74AF /* DRCellConfingModel.m */; };
+		B2B59DBA2241165400ED74AF /* DRCellConfingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DB52241165400ED74AF /* DRCellConfingModel.m */; };
+		B2B59DBB2241165400ED74AF /* DRSectionConfingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DB62241165400ED74AF /* DRSectionConfingModel.m */; };
+		B2B59DBC2241165400ED74AF /* DRSectionConfingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DB62241165400ED74AF /* DRSectionConfingModel.m */; };
+		B2B59DBD2241165400ED74AF /* DRSectionConfingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DB62241165400ED74AF /* DRSectionConfingModel.m */; };
+		B2B59DBF2241194300ED74AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B59DBE2241194300ED74AF /* Main.storyboard */; };
+		B2B59DC02241194300ED74AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B59DBE2241194300ED74AF /* Main.storyboard */; };
+		B2B59DC12241194300ED74AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B59DBE2241194300ED74AF /* Main.storyboard */; };
+		B2B59DC32241196800ED74AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B59DC22241196800ED74AF /* LaunchScreen.storyboard */; };
+		B2B59DC42241196800ED74AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B59DC22241196800ED74AF /* LaunchScreen.storyboard */; };
+		B2B59DC52241196800ED74AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B59DC22241196800ED74AF /* LaunchScreen.storyboard */; };
+		B2B59DC922413C0800ED74AF /* DRUserCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */; };
+		B2B59DCA22413C0800ED74AF /* DRUserCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */; };
+		B2B59DCB22413C0800ED74AF /* DRUserCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */; };
+		B2B59DCE22413CBA00ED74AF /* DRUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */; };
+		B2B59DCF22413CBA00ED74AF /* DRUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */; };
+		B2B59DD022413CBA00ED74AF /* DRUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,11 +107,7 @@
 		B28B88FA2224E0CC00EC719F /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28B88FD2224E0CC00EC719F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B28B88FE2224E0CC00EC719F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B28B89002224E0CC00EC719F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B28B89012224E0CC00EC719F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B28B89042224E0CC00EC719F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B28B89062224E0CD00EC719F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B28B89092224E0CD00EC719F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28B890B2224E0CD00EC719F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28B890C2224E0CD00EC719F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B28B89122224E0CD00EC719F /* iOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +138,20 @@
 		B28B89732225456C00EC719F /* DRHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRHomeViewController.m; sourceTree = "<group>"; };
 		B28B89782225458E00EC719F /* DRFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRFunctionViewController.h; sourceTree = "<group>"; };
 		B28B89792225458E00EC719F /* DRFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRFunctionViewController.m; sourceTree = "<group>"; };
+		B2B59DA92241160F00ED74AF /* DRHomeCategoryReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRHomeCategoryReusableView.h; sourceTree = "<group>"; };
+		B2B59DAA2241160F00ED74AF /* DRHomeCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRHomeCategoryCell.m; sourceTree = "<group>"; };
+		B2B59DAB2241160F00ED74AF /* DRHomeCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRHomeCategoryCell.h; sourceTree = "<group>"; };
+		B2B59DAC2241160F00ED74AF /* DRHomeCategoryReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRHomeCategoryReusableView.m; sourceTree = "<group>"; };
+		B2B59DB42241165400ED74AF /* DRSectionConfingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSectionConfingModel.h; sourceTree = "<group>"; };
+		B2B59DB52241165400ED74AF /* DRCellConfingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRCellConfingModel.m; sourceTree = "<group>"; };
+		B2B59DB62241165400ED74AF /* DRSectionConfingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSectionConfingModel.m; sourceTree = "<group>"; };
+		B2B59DB72241165400ED74AF /* DRCellConfingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRCellConfingModel.h; sourceTree = "<group>"; };
+		B2B59DBE2241194300ED74AF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B2B59DC22241196800ED74AF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2B59DC722413C0800ED74AF /* DRUserCenterHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRUserCenterHeadView.h; sourceTree = "<group>"; };
+		B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRUserCenterHeadView.m; sourceTree = "<group>"; };
+		B2B59DCC22413CB900ED74AF /* DRUserCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRUserCenterCell.h; sourceTree = "<group>"; };
+		B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRUserCenterCell.m; sourceTree = "<group>"; };
 		E1D0A287A3672605DC6E84A7 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,6 +201,10 @@
 		B26B12EE22301F0D003A32EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B2B59DAB2241160F00ED74AF /* DRHomeCategoryCell.h */,
+				B2B59DAA2241160F00ED74AF /* DRHomeCategoryCell.m */,
+				B2B59DA92241160F00ED74AF /* DRHomeCategoryReusableView.h */,
+				B2B59DAC2241160F00ED74AF /* DRHomeCategoryReusableView.m */,
 				B26B12EF22301F74003A32EC /* DRHomeCollectionViewCell.h */,
 				B26B12F022301F74003A32EC /* DRHomeCollectionViewCell.m */,
 			);
@@ -248,8 +283,6 @@
 				B28B894B222529A500EC719F /* Classes */,
 				B28B892F2224ECC400EC719F /* BasicService */,
 				B28B89352224EDAC00EC719F /* General */,
-				B28B89002224E0CC00EC719F /* ViewController.h */,
-				B28B89012224E0CC00EC719F /* ViewController.m */,
 			);
 			path = iOSProject;
 			sourceTree = "<group>";
@@ -287,6 +320,7 @@
 		B28B89302224ECEB00EC719F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B2B59DB32241165400ED74AF /* LTCellConfingModel */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -327,9 +361,7 @@
 			children = (
 				B28B88FD2224E0CC00EC719F /* AppDelegate.h */,
 				B28B88FE2224E0CC00EC719F /* AppDelegate.m */,
-				B28B89032224E0CC00EC719F /* Main.storyboard */,
 				B28B89062224E0CD00EC719F /* Assets.xcassets */,
-				B28B89082224E0CD00EC719F /* LaunchScreen.storyboard */,
 				B28B890B2224E0CD00EC719F /* Info.plist */,
 				B28B890C2224E0CD00EC719F /* main.m */,
 				B28B89362224EE7200EC719F /* DRHeader.h */,
@@ -338,6 +370,8 @@
 				B28B8939222510C000EC719F /* DRFoundation.h */,
 				B28B893A222510FC00EC719F /* DRGlobalEnum.h */,
 				B28B89472225214600EC719F /* iOSProject.pch */,
+				B2B59DBE2241194300ED74AF /* Main.storyboard */,
+				B2B59DC22241196800ED74AF /* LaunchScreen.storyboard */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -409,6 +443,7 @@
 		B28B894F22252AF800EC719F /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				B2B59DC622413BDC00ED74AF /* View */,
 				B28B89632225450000EC719F /* DRUserCenterViewController.h */,
 				B28B89642225450000EC719F /* DRUserCenterViewController.m */,
 				B27F0C8E22263110000328E7 /* SubModules */,
@@ -461,6 +496,28 @@
 				B28B89792225458E00EC719F /* DRFunctionViewController.m */,
 			);
 			path = "功能";
+			sourceTree = "<group>";
+		};
+		B2B59DB32241165400ED74AF /* LTCellConfingModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2B59DB42241165400ED74AF /* DRSectionConfingModel.h */,
+				B2B59DB52241165400ED74AF /* DRCellConfingModel.m */,
+				B2B59DB62241165400ED74AF /* DRSectionConfingModel.m */,
+				B2B59DB72241165400ED74AF /* DRCellConfingModel.h */,
+			);
+			path = LTCellConfingModel;
+			sourceTree = "<group>";
+		};
+		B2B59DC622413BDC00ED74AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2B59DC722413C0800ED74AF /* DRUserCenterHeadView.h */,
+				B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */,
+				B2B59DCC22413CB900ED74AF /* DRUserCenterCell.h */,
+				B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,9 +626,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28B890A2224E0CD00EC719F /* LaunchScreen.storyboard in Resources */,
+				B2B59DC32241196800ED74AF /* LaunchScreen.storyboard in Resources */,
 				B28B89072224E0CD00EC719F /* Assets.xcassets in Resources */,
-				B28B89052224E0CC00EC719F /* Main.storyboard in Resources */,
+				B2B59DBF2241194300ED74AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +636,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B59DC02241194300ED74AF /* Main.storyboard in Resources */,
+				B2B59DC42241196800ED74AF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +645,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B59DC12241194300ED74AF /* Main.storyboard in Resources */,
+				B2B59DC52241196800ED74AF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +708,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28B89022224E0CC00EC719F /* ViewController.m in Sources */,
+				B2B59DC922413C0800ED74AF /* DRUserCenterHeadView.m in Sources */,
 				B28B89552225405200EC719F /* DRTabBarController.m in Sources */,
 				B27F0C9222263153000328E7 /* DRGuidePageViewController.m in Sources */,
 				B28B89652225450000EC719F /* DRUserCenterViewController.m in Sources */,
@@ -657,9 +718,14 @@
 				B28B89602225418700EC719F /* UIImage+DRExtension.m in Sources */,
 				B28B897A2225458E00EC719F /* DRFunctionViewController.m in Sources */,
 				B27F0C8B22262CC4000328E7 /* UIFont+DRFont.m in Sources */,
+				B2B59DCE22413CBA00ED74AF /* DRUserCenterCell.m in Sources */,
 				B28B890D2224E0CD00EC719F /* main.m in Sources */,
 				B26B12F9223028B0003A32EC /* UIScrollView+DRRefresh.m in Sources */,
 				B28B896F2225453F00EC719F /* DRExampleViewController.m in Sources */,
+				B2B59DB82241165400ED74AF /* DRCellConfingModel.m in Sources */,
+				B2B59DAD2241160F00ED74AF /* DRHomeCategoryCell.m in Sources */,
+				B2B59DB02241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */,
+				B2B59DBB2241165400ED74AF /* DRSectionConfingModel.m in Sources */,
 				B26B12F122301F74003A32EC /* DRHomeCollectionViewCell.m in Sources */,
 				B28B88FF2224E0CC00EC719F /* AppDelegate.m in Sources */,
 				B28B89742225456C00EC719F /* DRHomeViewController.m in Sources */,
@@ -672,14 +738,20 @@
 			files = (
 				B28B89172224E0CD00EC719F /* iOSProjectTests.m in Sources */,
 				B28B89702225453F00EC719F /* DRExampleViewController.m in Sources */,
+				B2B59DBC2241165400ED74AF /* DRSectionConfingModel.m in Sources */,
 				B28B895B222540DA00EC719F /* DRNavigationViewController.m in Sources */,
 				B26B12FA223028B0003A32EC /* UIScrollView+DRRefresh.m in Sources */,
 				B28B89662225450000EC719F /* DRUserCenterViewController.m in Sources */,
 				B27F0C9322263153000328E7 /* DRGuidePageViewController.m in Sources */,
 				B28B89562225405200EC719F /* DRTabBarController.m in Sources */,
 				B28B89612225418700EC719F /* UIImage+DRExtension.m in Sources */,
+				B2B59DB12241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */,
 				B28B897B2225458E00EC719F /* DRFunctionViewController.m in Sources */,
+				B2B59DCA22413C0800ED74AF /* DRUserCenterHeadView.m in Sources */,
 				B27F0C8C22262CC4000328E7 /* UIFont+DRFont.m in Sources */,
+				B2B59DCF22413CBA00ED74AF /* DRUserCenterCell.m in Sources */,
+				B2B59DAE2241160F00ED74AF /* DRHomeCategoryCell.m in Sources */,
+				B2B59DB92241165400ED74AF /* DRCellConfingModel.m in Sources */,
 				B28B896B2225452500EC719F /* DRGraphicsViewController.m in Sources */,
 				B28B89752225456C00EC719F /* DRHomeViewController.m in Sources */,
 			);
@@ -691,14 +763,20 @@
 			files = (
 				B28B89222224E0CD00EC719F /* iOSProjectUITests.m in Sources */,
 				B28B89712225453F00EC719F /* DRExampleViewController.m in Sources */,
+				B2B59DBD2241165400ED74AF /* DRSectionConfingModel.m in Sources */,
 				B28B895C222540DA00EC719F /* DRNavigationViewController.m in Sources */,
 				B26B12FB223028B0003A32EC /* UIScrollView+DRRefresh.m in Sources */,
 				B28B89672225450000EC719F /* DRUserCenterViewController.m in Sources */,
 				B27F0C9422263153000328E7 /* DRGuidePageViewController.m in Sources */,
 				B28B89572225405200EC719F /* DRTabBarController.m in Sources */,
 				B28B89622225418700EC719F /* UIImage+DRExtension.m in Sources */,
+				B2B59DB22241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */,
 				B28B897C2225458E00EC719F /* DRFunctionViewController.m in Sources */,
+				B2B59DCB22413C0800ED74AF /* DRUserCenterHeadView.m in Sources */,
 				B27F0C8D22262CC4000328E7 /* UIFont+DRFont.m in Sources */,
+				B2B59DD022413CBA00ED74AF /* DRUserCenterCell.m in Sources */,
+				B2B59DAF2241160F00ED74AF /* DRHomeCategoryCell.m in Sources */,
+				B2B59DBA2241165400ED74AF /* DRCellConfingModel.m in Sources */,
 				B28B896C2225452500EC719F /* DRGraphicsViewController.m in Sources */,
 				B28B89762225456C00EC719F /* DRHomeViewController.m in Sources */,
 			);
@@ -718,25 +796,6 @@
 			targetProxy = B28B891E2224E0CD00EC719F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B28B89032224E0CC00EC719F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B28B89042224E0CC00EC719F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B28B89082224E0CD00EC719F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B28B89092224E0CD00EC719F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B28B89242224E0CD00EC719F /* Debug */ = {
@@ -856,6 +915,7 @@
 			baseConfigurationReference = 14B47555155744BD528FFEBC /* Pods-iOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SL7M3DUZA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -877,6 +937,7 @@
 			baseConfigurationReference = 14DEDC0DB463FBD2AA07872C /* Pods-iOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SL7M3DUZA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

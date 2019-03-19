@@ -16,6 +16,10 @@
 #define DRUserDefaults          [NSUserDefaults standardUserDefaults]
 #define DRNotificationCenter    [NSNotificationCenter defaultCenter]
 
+/// 保证NSString有值
+#undef  STR_CHANGE_nil
+#define STR_CHANGE_nil( __x ) (__x) ? : @""
+
 
 //*********** log打印
 #ifdef DEBUG

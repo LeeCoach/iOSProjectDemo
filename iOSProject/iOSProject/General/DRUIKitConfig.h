@@ -39,6 +39,8 @@
 #define DRRGBColor_A(r, g, b,a)     [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define DRRGBColor(r, g, b)         DRRGBColor_A(r, g, b, 1.0f)
 
+/// 随机色
+#define DRRandomColor       DRRGBColor((arc4random() % 256), (arc4random() % 256), (arc4random() % 256))
 
 //*********** UIFont
 #define UIFontSize(size)    [UIFont systemFontOfSize:size]             //系统字体

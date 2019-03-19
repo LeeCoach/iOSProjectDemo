@@ -26,7 +26,8 @@
     if (self) {
         
         
-        
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickSelfAction)];
+        [self.contentView addGestureRecognizer:tap];
         
     }
     return self;
@@ -40,11 +41,15 @@
     
 }
 
+- (void)clickSelfAction {
+    !self.didSelectItemBlock?:self.didSelectItemBlock(self.itemModel);
+}
+
 - (void)layoutSubviews {
     [super layoutSubviews];
     
     [self.bgView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(UIEdgeInsetsMake(DRHEIGHT(10), DRWIDTH(10), DRWIDTH(10), DRWIDTH(10)));
+        make.edges.mas_equalTo(UIEdgeInsetsMake(DRHEIGHT(5), DRWIDTH(10), DRWIDTH(5), DRWIDTH(10)));
     }];
     
     [self.titleLabel mas_remakeConstraints:^(MASConstraintMaker *make) {

@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) DRHomeItemModel *itemModel;
 
+@property (nonatomic, copy) void (^didSelectItemBlock)(DRHomeItemModel *itemModel);
+
 @end
 
 NS_ASSUME_NONNULL_END
