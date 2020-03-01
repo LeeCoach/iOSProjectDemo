@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - DRCategories (0.1.4)
   - IQKeyboardManager (6.2.0)
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
@@ -25,6 +26,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - DRCategories (~> 0.1.4)
   - IQKeyboardManager
   - Masonry (~> 1.1.0)
   - MJExtension (~> 3.0.13)
@@ -41,9 +43,12 @@ SPEC REPOS:
     - MJRefresh
     - SDWebImage
     - SVProgressHUD
+  https://gitlab.com/PrivateSpecs/DRSpecs.git:
+    - DRCategories
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DRCategories: 7983651ff61b9f6c1a088be4a12f5dd2db21810c
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
@@ -51,6 +56,6 @@ SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 6cf6d2a2032ef4bba777c4144e684108806a9aaf
+PODFILE CHECKSUM: 6ef6702e3ced84e4ef2da550903fd7576291d6cb
 
 COCOAPODS: 1.5.3

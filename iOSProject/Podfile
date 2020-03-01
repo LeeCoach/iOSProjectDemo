@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitlab.com/PrivateSpecs/DRSpecs.git'    #私有仓库
 
 platform :ios, '9.0'
 target 'iOSProject' do
@@ -21,5 +22,8 @@ target 'iOSProject' do
         
         #蒙版
         pod 'SVProgressHUD', '~> 2.2.5'
+        
+        #私有库
+        pod 'DRCategories', '~> 0.1.4'
 
 end

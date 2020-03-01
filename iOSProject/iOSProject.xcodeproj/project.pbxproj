@@ -72,6 +72,13 @@
 		B2B59DCE22413CBA00ED74AF /* DRUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */; };
 		B2B59DCF22413CBA00ED74AF /* DRUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */; };
 		B2B59DD022413CBA00ED74AF /* DRUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */; };
+		B2B7108A2281315100E700FD /* UIView+DRCornerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B710892281315100E700FD /* UIView+DRCornerShadow.m */; };
+		B2B7108B2281315100E700FD /* UIView+DRCornerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B710892281315100E700FD /* UIView+DRCornerShadow.m */; };
+		B2B7108C2281315100E700FD /* UIView+DRCornerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B710892281315100E700FD /* UIView+DRCornerShadow.m */; };
+		B2E7CFFF22CEE90300019200 /* DRCityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7CFFE22CEE90300019200 /* DRCityListViewController.m */; };
+		B2E7D00222CEEB3B00019200 /* DRCityListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7D00122CEEB3B00019200 /* DRCityListCell.m */; };
+		B2E7D00522CEEBC600019200 /* DRCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7D00422CEEBC600019200 /* DRCityModel.m */; };
+		B2E892A622D44670008CCC00 /* DRHomeViewController+DRCityLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E892A522D44670008CCC00 /* DRHomeViewController+DRCityLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +159,16 @@
 		B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRUserCenterHeadView.m; sourceTree = "<group>"; };
 		B2B59DCC22413CB900ED74AF /* DRUserCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRUserCenterCell.h; sourceTree = "<group>"; };
 		B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRUserCenterCell.m; sourceTree = "<group>"; };
+		B2B710882281315100E700FD /* UIView+DRCornerShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DRCornerShadow.h"; sourceTree = "<group>"; };
+		B2B710892281315100E700FD /* UIView+DRCornerShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DRCornerShadow.m"; sourceTree = "<group>"; };
+		B2E7CFFD22CEE90300019200 /* DRCityListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRCityListViewController.h; sourceTree = "<group>"; };
+		B2E7CFFE22CEE90300019200 /* DRCityListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRCityListViewController.m; sourceTree = "<group>"; };
+		B2E7D00022CEEB3B00019200 /* DRCityListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRCityListCell.h; sourceTree = "<group>"; };
+		B2E7D00122CEEB3B00019200 /* DRCityListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRCityListCell.m; sourceTree = "<group>"; };
+		B2E7D00322CEEBC600019200 /* DRCityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRCityModel.h; sourceTree = "<group>"; };
+		B2E7D00422CEEBC600019200 /* DRCityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRCityModel.m; sourceTree = "<group>"; };
+		B2E892A422D44670008CCC00 /* DRHomeViewController+DRCityLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRHomeViewController+DRCityLocation.h"; sourceTree = "<group>"; };
+		B2E892A522D44670008CCC00 /* DRHomeViewController+DRCityLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRHomeViewController+DRCityLocation.m"; sourceTree = "<group>"; };
 		E1D0A287A3672605DC6E84A7 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -328,6 +345,7 @@
 		B28B89312224ED0A00EC719F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B2B710872281311C00E700FD /* UIView */,
 				B26B12F622302882003A32EC /* UIScrollView */,
 				B27F0C8822262C90000328E7 /* UIFont */,
 				B28B895D2225414800EC719F /* UIImage */,
@@ -454,10 +472,13 @@
 		B28B89502225311E00EC719F /* 基础 */ = {
 			isa = PBXGroup;
 			children = (
+				B2E7CFF822CEE87A00019200 /* SubModules */,
 				B26B12F222302051003A32EC /* Model */,
 				B26B12EE22301F0D003A32EC /* View */,
 				B28B89722225456C00EC719F /* DRHomeViewController.h */,
 				B28B89732225456C00EC719F /* DRHomeViewController.m */,
+				B2E892A422D44670008CCC00 /* DRHomeViewController+DRCityLocation.h */,
+				B2E892A522D44670008CCC00 /* DRHomeViewController+DRCityLocation.m */,
 			);
 			path = "基础";
 			sourceTree = "<group>";
@@ -516,6 +537,60 @@
 				B2B59DC822413C0800ED74AF /* DRUserCenterHeadView.m */,
 				B2B59DCC22413CB900ED74AF /* DRUserCenterCell.h */,
 				B2B59DCD22413CB900ED74AF /* DRUserCenterCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2B710872281311C00E700FD /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B2B710882281315100E700FD /* UIView+DRCornerShadow.h */,
+				B2B710892281315100E700FD /* UIView+DRCornerShadow.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B2E7CFF822CEE87A00019200 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7CFF922CEE89A00019200 /* CityList */,
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		B2E7CFF922CEE89A00019200 /* CityList */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7CFFC22CEE8D800019200 /* View */,
+				B2E7CFFB22CEE8D000019200 /* Model */,
+				B2E7CFFA22CEE8B200019200 /* Controller */,
+			);
+			path = CityList;
+			sourceTree = "<group>";
+		};
+		B2E7CFFA22CEE8B200019200 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7CFFD22CEE90300019200 /* DRCityListViewController.h */,
+				B2E7CFFE22CEE90300019200 /* DRCityListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2E7CFFB22CEE8D000019200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7D00322CEEBC600019200 /* DRCityModel.h */,
+				B2E7D00422CEEBC600019200 /* DRCityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2E7CFFC22CEE8D800019200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7D00022CEEB3B00019200 /* DRCityListCell.h */,
+				B2E7D00122CEEB3B00019200 /* DRCityListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -711,14 +786,19 @@
 				B2B59DC922413C0800ED74AF /* DRUserCenterHeadView.m in Sources */,
 				B28B89552225405200EC719F /* DRTabBarController.m in Sources */,
 				B27F0C9222263153000328E7 /* DRGuidePageViewController.m in Sources */,
+				B2E7D00522CEEBC600019200 /* DRCityModel.m in Sources */,
 				B28B89652225450000EC719F /* DRUserCenterViewController.m in Sources */,
 				B28B896A2225452500EC719F /* DRGraphicsViewController.m in Sources */,
 				B28B895A222540DA00EC719F /* DRNavigationViewController.m in Sources */,
+				B2E892A622D44670008CCC00 /* DRHomeViewController+DRCityLocation.m in Sources */,
+				B2E7D00222CEEB3B00019200 /* DRCityListCell.m in Sources */,
 				B26B12F522302079003A32EC /* DRHomeItemModel.m in Sources */,
 				B28B89602225418700EC719F /* UIImage+DRExtension.m in Sources */,
 				B28B897A2225458E00EC719F /* DRFunctionViewController.m in Sources */,
+				B2B7108A2281315100E700FD /* UIView+DRCornerShadow.m in Sources */,
 				B27F0C8B22262CC4000328E7 /* UIFont+DRFont.m in Sources */,
 				B2B59DCE22413CBA00ED74AF /* DRUserCenterCell.m in Sources */,
+				B2E7CFFF22CEE90300019200 /* DRCityListViewController.m in Sources */,
 				B28B890D2224E0CD00EC719F /* main.m in Sources */,
 				B26B12F9223028B0003A32EC /* UIScrollView+DRRefresh.m in Sources */,
 				B28B896F2225453F00EC719F /* DRExampleViewController.m in Sources */,
@@ -744,6 +824,7 @@
 				B28B89662225450000EC719F /* DRUserCenterViewController.m in Sources */,
 				B27F0C9322263153000328E7 /* DRGuidePageViewController.m in Sources */,
 				B28B89562225405200EC719F /* DRTabBarController.m in Sources */,
+				B2B7108B2281315100E700FD /* UIView+DRCornerShadow.m in Sources */,
 				B28B89612225418700EC719F /* UIImage+DRExtension.m in Sources */,
 				B2B59DB12241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */,
 				B28B897B2225458E00EC719F /* DRFunctionViewController.m in Sources */,
@@ -769,6 +850,7 @@
 				B28B89672225450000EC719F /* DRUserCenterViewController.m in Sources */,
 				B27F0C9422263153000328E7 /* DRGuidePageViewController.m in Sources */,
 				B28B89572225405200EC719F /* DRTabBarController.m in Sources */,
+				B2B7108C2281315100E700FD /* UIView+DRCornerShadow.m in Sources */,
 				B28B89622225418700EC719F /* UIImage+DRExtension.m in Sources */,
 				B2B59DB22241160F00ED74AF /* DRHomeCategoryReusableView.m in Sources */,
 				B28B897C2225458E00EC719F /* DRFunctionViewController.m in Sources */,

@@ -9,10 +9,12 @@
 #import "DRUserCenterViewController.h"
 
 #import "DRUserCenterCell.h"
+#import "DRUserCenterHeadView.h"
 
 @interface DRUserCenterViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) DRUserCenterHeadView *headView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
 
 @end
@@ -97,6 +99,9 @@
         }else{
             self.automaticallyAdjustsScrollViewInsets = NO;
         }
+        
+        _tableView.tableHeaderView = self.headView;
+        
         [self.view addSubview:_tableView];
         [_tableView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(UIEdgeInsetsMake(0, 0, (IS_IPhoneX_All?DR_Height_SAFEAREA_BOTTOM:0), 0));
@@ -111,6 +116,13 @@
         }];
     }
     return _tableView;
+}
+
+- (DRUserCenterHeadView *)headView {
+    if (_headView == nil) {
+        _headView = [[DRUserCenterHeadView alloc] initWithFrame:CGRectMake(0, 0, DRSCREEN_WIDTH, DRHEIGHT(120))];
+    }
+    return _headView;
 }
 
 - (NSMutableArray *)dataArray {

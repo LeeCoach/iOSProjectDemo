@@ -24,6 +24,8 @@
 
 #import "UIImage+DRExtension.h"
 
+#import "UIView+DRCornerShadow.h"
+
 #import "UIScrollView+DRRefresh.h"
 
 #import "UIFont+DRFont.h"

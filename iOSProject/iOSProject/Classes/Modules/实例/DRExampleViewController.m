@@ -16,7 +16,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    [self setNavigationBarItem];
+}
+
+- (void)setNavigationBarItem
+{
+    UIButton *commitBtn  = [UIButton buttonWithType:UIButtonTypeCustom];
+    commitBtn.frame = CGRectMake(0, 0, DRWIDTH(40), DRWIDTH(40));
+    [commitBtn setImage:[UIImage imageNamed:@"instance_nav_commit"] forState:UIControlStateNormal];
+    [commitBtn addTarget:self action:@selector(commitAction) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:commitBtn];
+    
+    UIButton *messageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    messageBtn.frame = CGRectMake(0, 0, DRWIDTH(40), DRWIDTH(40));
+    [messageBtn setImage:[UIImage imageNamed:@"instance_nav_message"] forState:UIControlStateNormal];
+    [messageBtn addTarget:self action:@selector(messageAction) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:messageBtn];
+}
+
+- (void)commitAction
+{
+    
+}
+
+- (void)messageAction
+{
+    
 }
 
 /*
